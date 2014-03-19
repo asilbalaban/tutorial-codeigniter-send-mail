@@ -16,7 +16,7 @@ class sendmail extends CI_Controller {
         $phone = $this->input->post('telefon');
         $message = $this->input->post('mesaj');
 
-        $mailAddress = "aslblbn@gmail.com";
+        $mailAddress = "sendthisaddress@example.com";
 
         $mesg = "<strong>Adı:</strong> {$sender} <br /> <strong>Mail Adresi:</strong> {$senderMail} <br /> <strong>Telefonu:</strong> {$phone} <br /> <strong>Mesajı:</strong> {$message}";
 
